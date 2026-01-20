@@ -9,9 +9,10 @@ export const typeBg = {
   poison: "bg-purple-500",
   ground: "bg-amber-600",
   flying: "bg-sky-400",
-  psychic: "bg-pink-500",
+  psychic: "bg-pink-600",
   bug: "bg-lime-500",
   rock: "bg-stone-600",
   ghost: "bg-indigo-600",
   dragon: "bg-violet-700",
+  fairy: "bg-pink-400"
 };

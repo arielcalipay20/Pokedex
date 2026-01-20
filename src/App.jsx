@@ -19,7 +19,7 @@ function App() {
           );
         }
         const pokemonData = await Promise.all(promises);
-        console.log("Pokemon Data: ", pokemonData);
+
         setPokemons(pokemonData);
       } catch (error) {
         console.error(error);
@@ -28,24 +28,34 @@ function App() {
       }
     };
     fetchAllPokemon();
-  }, []);
+  }, [pokemons]);
 
   return (
     <>
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-4 gap-4 w-2/3 py-5 mx-auto">
         {
-          pokemons.map(pokemon => {
+          pokemons.map((pokemon) => {
             return (
-              <div key={pokemon.id} className="rounded overflow-hidden shadow-lg border border-dark p-8">
-                <div className="flex justify-center border border-black bg-gray-300">
-                  <img className="" src={pokemon.sprites.front_default} alt={pokemon.name} />
+              <div key={pokemon.id} className="card rounded overflow-hidden shadow-lg border border-gray-300">
+                <div className="flex justify-center bg-gray-300">
+                  <img className="pokemon-names" src={pokemon.sprites.front_default} alt={pokemon.name} />
                 </div>
-                <h3>{pokemon.name}</h3>
-                <p
-                  className="rounded capitalize text-sm "
-                >
-                  {pokemon.types.map(t => t.type.name).join(", ")}
-                </p>
+
+                <div className="p-4 pokemon-details">
+                  <p className="text-xs text-gray-400 text-right">#{pokemon.id}</p>
+                  <p className="text-xl capitalize mb-3">{pokemon.name}</p>
+                  <div className="flex gap-2">
+                    {pokemon.types.map((t, index) => {
+                      const type = t.type.name;
+                      return (
+                        <span key={index} className={`text-white rounded capitalize text-sm px-2 py-1 ${typeBg[type]}`}>
+                          {type}
+                        </span>
+                      )
+                    })}
+                  </div>
+                </div>
+
               </div>
             )
           })
