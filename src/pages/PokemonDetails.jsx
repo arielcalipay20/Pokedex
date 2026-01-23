@@ -218,11 +218,13 @@ function PokemonDetails() {
                             <div className="flex items-center justify-center gap-4 flex-wrap">
                                 {evolutionChain.map((evo, index) => (
                                     <React.Fragment key={evo.id}>
-                                        <PokemonCard
-                                            pokemon={evo}
-                                            disable={evo.id === pokemon.id}
-                                            onClick={handleEvolutionClick}
-                                        />
+                                        <div className={pokemon.id === evo.id ? "rounded border-4 border-cyan-500 p-1" : ""} >
+                                            <PokemonCard
+                                                pokemon={evo}
+                                                disable={evo.id === pokemon.id}
+                                                onClick={handleEvolutionClick}
+                                            />
+                                        </div>
                                         {index < evolutionChain.length - 1 && (
                                             <div className="text-2xl font-bold">→</div>
                                         )}
