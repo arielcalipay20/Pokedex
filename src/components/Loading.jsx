@@ -1,11 +1,9 @@
 import React from 'react'
 
-function Loading() {
+export default function Loading() {
     return (
         <div className="min-h-screen flex justify-center items-center">
-            <p>Pokedex Loading....</p>
+            <p className="text-2xl">Pokédex Loading....</p>
         </div>
     )
 }
-
-export default Loading
