@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1780729371628" clover="3.2.0">
+  <project timestamp="1780729371629" name="All files">
+    <metrics statements="117" coveredstatements="116" conditionals="52" coveredconditionals="46" methods="29" coveredmethods="29" elements="198" coveredelements="191" complexity="0" loc="117" ncloc="117" packages="7" files="11" classes="11"/>
+    <package name="components.PokemonCard">
+      <metrics statements="10" coveredstatements="10" conditionals="6" coveredconditionals="6" methods="4" coveredmethods="4"/>
+      <file name="PokemonCard.tsx" path="C:\Users\ariel\Documents\GitHub\Pokedex\src\components\PokemonCard\PokemonCard.tsx">
+        <metrics statements="6" coveredstatements="6" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3"/>
+        <line num="3" count="1" type="stmt"/>
+        <line num="4" count="10" type="stmt"/>
+        <line num="5" count="10" type="stmt"/>
+        <line num="8" count="1" type="cond" truecount="4" falsecount="0"/>
+        <line num="26" count="19" type="stmt"/>
+        <line num="27" count="19" type="stmt"/>
+      </file>
+      <file name="usePokemonCard.tsx" path="C:\Users\ariel\Documents\GitHub\Pokedex\src\components\PokemonCard\usePokemonCard.tsx">
+        <metrics statements="4" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="10" type="stmt"/>
+        <line num="12" count="10" type="stmt"/>
+        <line num="14" count="10" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.PokemonSearch">
+      <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <file name="PokemonSearch.tsx" path="C:\Users\ariel\Documents\GitHub\Pokedex\src\components\PokemonSearch\PokemonSearch.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="30" type="stmt"/>
+        <line num="6" count="30" type="stmt"/>
+      </file>
+      <file name="usePokemonSearch.tsx" path="C:\Users\ariel\Documents\GitHub\Pokedex\src\components\PokemonSearch\usePokemonSearch.tsx">
+        <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="30" type="stmt"/>
+        <line num="9" count="30" type="stmt"/>
+      </file>
+    </package>
+    <package name="constants">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="pokemonTypes.ts" path="C:\Users\ariel\Documents\GitHub\Pokedex\src\constants\pokemonTypes.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="defaultProps">
+      <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="label.ts" path="C:\Users\ariel\Documents\GitHub\Pokedex\src\defaultProps\label.ts">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="1" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.PokemonDetails">
+      <metrics statements="59" coveredstatements="59" conditionals="36" coveredconditionals="30" methods="12" coveredmethods="12"/>
+      <file name="PokemonDetails.tsx" path="C:\Users\ariel\Documents\GitHub\Pokedex\src\pages\PokemonDetails\PokemonDetails.tsx">
+        <metrics statements="12" coveredstatements="12" conditionals="30" coveredconditionals="27" methods="5" coveredmethods="5"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="17" count="27" type="stmt"/>
+        <line num="20" count="27" type="cond" truecount="4" falsecount="0"/>
+        <line num="21" count="14" type="stmt"/>
+        <line num="24" count="13" type="stmt"/>
+        <line num="51" count="26" type="stmt"/>
+        <line num="52" count="26" type="stmt"/>
+        <line num="129" count="26" type="stmt"/>
+        <line num="130" count="26" type="stmt"/>
+        <line num="151" count="26" type="stmt"/>
+        <line num="152" count="26" type="stmt"/>
+        <line num="175" count="26" type="stmt"/>
+      </file>
+      <file name="usePokemonDetails.tsx" path="C:\Users\ariel\Documents\GitHub\Pokedex\src\pages\PokemonDetails\usePokemonDetails.tsx">
+        <metrics statements="47" coveredstatements="47" conditionals="6" coveredconditionals="3" methods="7" coveredmethods="7"/>
+        <line num="47" count="1" type="stmt"/>
+        <line num="48" count="27" type="stmt"/>
+        <line num="49" count="27" type="stmt"/>
+        <line num="50" count="27" type="stmt"/>
+        <line num="51" count="27" type="stmt"/>
+        <line num="52" count="27" type="stmt"/>
+        <line num="53" count="27" type="stmt"/>
+        <line num="54" count="27" type="stmt"/>
+        <line num="55" count="27" type="stmt"/>
+        <line num="57" count="27" type="stmt"/>
+        <line num="58" count="14" type="stmt"/>
+        <line num="59" count="14" type="stmt"/>
+        <line num="60" count="14" type="stmt"/>
+        <line num="62" count="14" type="stmt"/>
+        <line num="63" count="14" type="stmt"/>
+        <line num="64" count="14" type="stmt"/>
+        <line num="67" count="14" type="stmt"/>
+        <line num="70" count="13" type="stmt"/>
+        <line num="73" count="13" type="stmt"/>
+        <line num="74" count="13" type="stmt"/>
+        <line num="76" count="13" type="cond" truecount="1" falsecount="1"/>
+        <line num="78" count="13" type="stmt"/>
+        <line num="79" count="13" type="stmt"/>
+        <line num="83" count="13" type="stmt"/>
+        <line num="84" count="13" type="cond" truecount="1" falsecount="1"/>
+        <line num="85" count="13" type="stmt"/>
+        <line num="89" count="13" type="cond" truecount="1" falsecount="1"/>
+        <line num="90" count="14" type="stmt"/>
+        <line num="93" count="14" type="stmt"/>
+        <line num="94" count="13" type="stmt"/>
+        <line num="96" count="13" type="stmt"/>
+        <line num="97" count="13" type="stmt"/>
+        <line num="99" count="13" type="stmt"/>
+        <line num="100" count="26" type="stmt"/>
+        <line num="104" count="26" type="stmt"/>
+        <line num="107" count="26" type="stmt"/>
+        <line num="108" count="26" type="stmt"/>
+        <line num="110" count="26" type="stmt"/>
+        <line num="112" count="13" type="stmt"/>
+        <line num="114" count="1" type="stmt"/>
+        <line num="116" count="14" type="stmt"/>
+        <line num="119" count="14" type="stmt"/>
+        <line num="122" count="27" type="stmt"/>
+        <line num="123" count="1" type="stmt"/>
+        <line num="126" count="27" type="stmt"/>
+        <line num="127" count="1" type="stmt"/>
+        <line num="130" count="27" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.PokemonList">
+      <metrics statements="40" coveredstatements="39" conditionals="10" coveredconditionals="10" methods="11" coveredmethods="11"/>
+      <file name="PokemonList.tsx" path="C:\Users\ariel\Documents\GitHub\Pokedex\src\pages\PokemonList\PokemonList.tsx">
+        <metrics statements="7" coveredstatements="7" conditionals="10" coveredconditionals="10" methods="2" coveredmethods="2"/>
+        <line num="10" count="1" type="cond" truecount="2" falsecount="0"/>
+        <line num="13" count="1" type="stmt"/>
+        <line num="26" count="31" type="stmt"/>
+        <line num="31" count="31" type="cond" truecount="2" falsecount="0"/>
+        <line num="32" count="9" type="stmt"/>
+        <line num="35" count="22" type="stmt"/>
+        <line num="63" count="109" type="stmt"/>
+      </file>
+      <file name="usePokemonList.tsx" path="C:\Users\ariel\Documents\GitHub\Pokedex\src\pages\PokemonList\usePokemonList.tsx">
+        <metrics statements="33" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="9" coveredmethods="9"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="31" type="stmt"/>
+        <line num="17" count="31" type="stmt"/>
+        <line num="18" count="31" type="stmt"/>
+        <line num="19" count="31" type="stmt"/>
+        <line num="20" count="31" type="stmt"/>
+        <line num="22" count="31" type="stmt"/>
+        <line num="24" count="31" type="stmt"/>
+        <line num="25" count="9" type="stmt"/>
+        <line num="26" count="9" type="stmt"/>
+        <line num="27" count="9" type="stmt"/>
+        <line num="29" count="9" type="stmt"/>
+        <line num="32" count="9" type="stmt"/>
+        <line num="35" count="9" type="stmt"/>
+        <line num="37" count="135" type="stmt"/>
+        <line num="40" count="9" type="stmt"/>
+        <line num="42" count="0" type="stmt"/>
+        <line num="44" count="9" type="stmt"/>
+        <line num="47" count="9" type="stmt"/>
+        <line num="51" count="31" type="stmt"/>
+        <line num="52" count="1" type="stmt"/>
+        <line num="56" count="31" type="stmt"/>
+        <line num="57" count="195" type="stmt"/>
+        <line num="61" count="31" type="stmt"/>
+        <line num="62" count="31" type="stmt"/>
+        <line num="63" count="31" type="stmt"/>
+        <line num="66" count="31" type="stmt"/>
+        <line num="67" count="1" type="stmt"/>
+        <line num="68" count="1" type="stmt"/>
+        <line num="72" count="31" type="stmt"/>
+        <line num="73" count="3" type="stmt"/>
+        <line num="75" count="3" type="stmt"/>
+        <line num="78" count="31" type="stmt"/>
+      </file>
+    </package>
+    <package name="styles">
+      <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      <file name="pokemonList.css" path="C:\Users\ariel\Documents\GitHub\Pokedex\src\styles\pokemonList.css">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+  </project>
+</coverage>
